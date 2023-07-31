@@ -1,0 +1,53 @@
+<!-- zzzzzzzzzzzz DIREÇÃO DIOGO COL 1 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-direcao-Diogo-Brito.png"
+                  alt="Diretor Pedagógico Diogo Brito"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Diogo Barbosa de Brito</strong>
+              <br />
+              Diretor Pedagógico
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+                <li class="liUlGeralLeft">
+                  Pedagogo formado pela Universidade Braz Cubas (UBC).
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Neuropsicopedagogia, neuroaprendizagem com
+                  ênfase na educação especial e inclusiva pela Universidade Cidade
+                  de São Paulo (Unicid).
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Ludopedagogia e psicomotricidade pela Universidade Cidade
+                  de São Paulo (Unicid).
+                </li>
+                <li class="liUlGeralLeft">
+                  Graduando em Letras (Universidade Faveni).
+                </li>
+                <li class="liUlGeralLeft">
+                  Pós-graduando em Análise do Comportamento Aplicada (ABA -
+                  Applied Behavior Analysis) na educação de pessoas com TEA
+                  (Centro Universitário Rhema).
+                </li>
+                <li class="liUlGeralLeft">
+                  Professor do Colégio VE desde 2018.
+                </li>
+                <li class="liUlGeralLeft">
+                  Assumiu a Coordenação pedagógica em 2022.
+                </li>
+                <li class="liUlGeralLeft">
+                  Atualmente é o Diretor Pedagógico do Colégio VE.
+                </li>
+                <li class="liPassions">
+                  &nbsp; Suas grandes paixões: Deus, família e educação.
+                </li>
+              </ul>
+            </div>
+          </div>

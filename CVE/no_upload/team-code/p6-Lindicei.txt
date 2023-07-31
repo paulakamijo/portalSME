@@ -1,0 +1,36 @@
+<!-- zzzzzzzzzzzz DOCENTE - LINDICEI COL 6 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-docente-Lindicei-Miho.png"
+                  alt="Professora Lindicei Miho"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Lindicei Ap Miho Benigno de Sousa</strong>
+              <br />
+              Professora
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+                <li class="liUlGeralLeft">
+                  Pedagoga formada pela Unopar.
+                </li>
+                <li class="liUlGeralLeft">
+                  Graduada em Educação Física pela Unopar.
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Empreendimento e Gestão Empresarial pela Unopar.
+                </li>
+                <li class="liUlGeralLeft">
+                  Professora do Colégio VE desde 2014.
+                </li>
+                <li class="liPassions">
+                  &nbsp; Suas grandes paixões: Ficar com a família e viajar.
+                </li>
+              </ul>
+            </div>
+          </div>

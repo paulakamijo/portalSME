@@ -1,0 +1,38 @@
+<!-- zzzzzzzzzzzz DOCENTE - LEANDRA COL 3 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-no-photo.png"
+                  alt="Professora Leandra de Assis"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Leandra de Assis Gualberto da Silva</strong>
+              <br />
+              Professora / Cuidadora
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+                <li class="liUlGeralLeft">
+                  Pedagoga formada pela Universidade Braz Cubas (UBC).
+                </li>
+                <li class="liUlGeralLeft">
+                  Graduanda em Psicologia pela Universidade Braz Cubas (UBC).
+                </li>
+                <li class="liUlGeralLeft">
+                  Pós-graduanda em Deficiência intelectual pela Faculdades
+                  Integradas Soares de Oliveira (FISO).
+                </li>
+                <li class="liUlGeralLeft">
+                  Professora do Colégio VE desde 2021.
+                </li>
+                <li class="liPassions">
+                  &nbsp; Suas grandes paixões: Deus, família e lecionar.
+                </li>
+              </ul>
+              <!-- </div> -->
+            </div>
+          </div>

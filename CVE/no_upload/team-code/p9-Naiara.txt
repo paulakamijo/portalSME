@@ -1,0 +1,30 @@
+<!-- zzzzzzzzzzzz DOCENTE NAIARA COL 9 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-docente-Luciana-Santos.png"
+                  alt="Naiara Caroline Miho"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Naiara Caroline Miho</strong>
+              <br />
+              Auxiliar Pedagógica
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+		<li class="liUlGeralLeft">
+                  Graduanda em Pedagogia pela Universidade Paulista (Unip).
+                </li>           
+                <li class="liUlGeralLeft">
+                  Atua no Colégio VE desde 2018.
+                </li>
+                <!-- <li class="liPassions">
+                  &nbsp; Suas grandes paixões: muitas coisas.
+                </li> -->
+              </ul>
+            </div>
+          </div>

@@ -1,0 +1,39 @@
+<!-- zzzzzzzzzzzz DOCENTE LIVIA COL 7 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-docente-Luciana-Santos.png"
+                  alt="Livia Basilio de Freitas"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Livia Basilio de Freitas</strong>
+              <br />
+              Professora
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+		<li class="liUlGeralLeft">
+                  Graduada em Letras pela Universidade Braz Cubas (UBC).
+                </li>
+                <li class="liUlGeralLeft">
+                  Pedagoga formada pela Faculdade da Aldeia de Carapicuíba (FALC).
+                </li>
+		<li class="liUlGeralLeft">
+                  Graduanda em Direito pela Universidade Braz Cubas (UBC).
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Leitura, Linguística e Produção de Texto pela Faculdade CNI.
+                </li>                
+                <li class="liUlGeralLeft">
+                  Professora do Colégio VE desde 2021.
+                </li>
+                <!-- <li class="liPassions">
+                  &nbsp; Suas grandes paixões: ler e praticar esporte coletivo.
+                </li> -->
+              </ul>
+            </div>
+          </div>

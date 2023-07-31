@@ -1,0 +1,29 @@
+<script>
+  /*escopo determina a visibilidade de alguma variável no JS*/
+
+  /*Block statement (Declaração) -  Declaração de bloco, com abre e fecha {}*/
+
+  //var é global e local
+
+  //hoisting - JS pode antecipar a declaração de var antes da ordem vertical
+
+  /*
+  var x
+  console.log('>existe x antes do bloco?', x)
+
+  {
+    x = 0
+  }
+
+  console.log('>existe x depois do bloco?', x)*/
+
+  //const e let são locais
+  //  console.log('>existe y antes do bloco?', y)
+
+  {
+    let y = 0
+    console.log('>existe y depois do bloco?', y)
+  }
+
+  console.log('>existe y depois do bloco?', y)
+</script>

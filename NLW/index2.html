@@ -1,0 +1,89 @@
+<!--
+Insert comments
+Hyoertext Markeup Language  
+-->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Paula Kamijo - DoWhile2021</title>
+
+    <!--
+Cascading Style Sheet - ordem de aparição dos estilos, que pode ser sobrescrito de acordo com os elementos que aparecem por ÚLTIMO*/
+      
+    /**Especificidade
+
+    - ORDEM DECRESCENTE (Cascading)
+    <> inline CSS > # ID Selector > Class > Element selector {}
+    Estilos inline são os que têm mais força
+
+    a.button {background-color: lightblue;}    elemento (a) + classe (.button)
+    .button {background-color: lightblue;}   classe
+    Apesar da cascata, o a.button é mais forte, pois junta elemento + classe
+    
+    - de ELEMENTO:
+    h1{font-size: 1,5rem;}
+**********************************************
+    UNIDADES DE MEDIDA E RESPONSIVO - Unidades relativas: porcentagem -
+    Unidades estáticas: pixels são fixos
+    -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="avatar">
+          <span>
+            <img src="images/build.svg" alt="Selo Rocketseat" />
+          </span>
+          <img id="userImage" src="http://lorempixel.com/185/185/abstract/" alt="Foto pessoal" />
+        </div>
+        <h1 id="userName">Paula Kamijo</h1>
+        <a id="userLink" href="https://github.com/paulakamijo" target="_blank">
+          <img src="images/github.svg" alt="ícone github" /><span id="userLogin">
+          paulakamijo</span></a>
+        
+        <p id="userBio">An instructor focused on helping pople start programming for web</p>
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://youtube.com/maykbrito" target="_blank">
+              <img src="images/youtube.svg" alt="ícone Youtube"  />
+            </a>
+          </li>
+          <li class="facebook">
+            <a href="https://facebook.com/maykbrito" target="_blank">
+              <img src="images/facebook.svg" alt="ícone Facebook" />
+            </a>
+          </li>
+          <li class="instagram">
+            <a href="https://instagram.com/maykbrito" target="_blank">
+              <img src="images/instagram.svg" alt="ícone Facebook" />
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="https://twitter.com/maykbrito" target="_blank">
+              <img src="images/twitter.svg" alt="ícone Twitter" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+  </html>
+
+  <!--
+  API 
+Appication Programming Interface
+https://api.github.com/emojis
+https://api.github.com/users/paulakamijo
+JSON leva as informações (garçom)
+
+  -->
+
+

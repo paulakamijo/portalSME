@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Unidades escolares</legend>
+        <label for="nome">Escola</label>
+        <input id="nome" type="text" value="" />
+        <form action="" id="myform"></form>
+        <button type="submit" name="button" value="anyvalue" form="myform">
+          Cadastrar
+        </button>
+
+        <!-- button recebe o valor de anyvalue -->
+      </fieldset>
+    </form>
+    <input type="submit" id="myform" value="Enviar" />
+    <!-- input type submit tem a mesma função do button -->
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!-- zzzzzzzzzzzz DOCENTE IRACEMA COL 2 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-docente-Iracema-Souza.png"
+                  alt="Professora Iracema Souza"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Iracema Miranda da Silva Souza</strong>
+              <br />
+              Professora
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+                <li class="liUlGeralLeft">
+                  Pedagoga formada pela Universidade Braz Cubas (UBC).
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Autismo (Universidade Faveni).
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Deficiência visual e tecnologia assistiva
+                  (Universidade Faveni).
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Educação Especial e inclusiva com enfâse em
+                  deficiência intelectual e múltipla. (Universidade Faveni).
+                </li>
+                <li class="liUlGeralLeft">
+                  Professora do Colégio VE desde 2022.
+                </li>
+                <li class="liPassions">
+                  &nbsp; Suas grandes paixões: Família e praia.
+                </li>
+              </ul>
+              <!-- </div> -->
+            </div>
+          </div>

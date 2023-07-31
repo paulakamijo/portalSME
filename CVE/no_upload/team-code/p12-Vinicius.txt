@@ -1,0 +1,36 @@
+<!-- zzzzzzzzzzzz DOCENTE VINICIUS COL 2 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-docente-Iracema-Souza.png"
+                  alt="Professor Vinicius Alves da Silva"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Vinicius Alves da Silva</strong>
+              <br />
+              Professor
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+                <li class="liUlGeralLeft">
+                  Matemático formado pela Universidade Braz Cubas.
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Educação Matemática pela Universidade Nove de Julho (Uninove)
+                </li>   
+		<li class="liUlGeralLeft">
+                  Mestre em Matemática pela Universidade Federal do ABC (UFABC)
+                </li>             
+                <li class="liUlGeralLeft">
+                  Professor do Colégio VE desde 2015.
+                </li>
+                <li class="liPassions">
+                  &nbsp; Suas grandes paixões: pets e academia.
+                </li>
+              </ul>
+            </div>
+          </div>

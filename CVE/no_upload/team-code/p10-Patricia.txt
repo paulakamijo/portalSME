@@ -1,0 +1,36 @@
+<!-- zzzzzzzzzzzz DOCENTE PATRÍCIA COL 10 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-docente-Iracema-Souza.png"
+                  alt="Professora Patrícia da Silva Ramos"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Patrícia da Silva Ramos</strong>
+              <br />
+              Professora
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+                <li class="liUlGeralLeft">
+                  Pedagoga formada pela Universidade de Mogi das Cruzes (UMC).
+                </li>
+                <li class="liUlGeralLeft">
+                  Pós-graduanda em Pedagogia Empresarial (UMC).
+                </li>
+                <li class="liUlGeralLeft">
+                  Pós-graduanda em Diversidade e Gênero.
+                </li>
+                <li class="liUlGeralLeft">
+                  Professora do Colégio VE desde 2021.
+                </li>
+                <li class="liPassions">
+                  &nbsp; Suas grandes paixões: Gosta de ficar com a família e assistir séries.
+                </li>
+              </ul>
+            </div>
+          </div>

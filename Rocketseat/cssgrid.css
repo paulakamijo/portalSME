@@ -1,0 +1,77 @@
+body{
+  display: grid;
+  margin: 0;
+  height: 100vh;
+  grid-template-areas: "header header" "main aside" "footer footer";
+  grid-template-rows: 30px 1fr 40px;
+  grid-template-columns: 1fr 80px;
+}
+
+div{
+  font-family: sans-serif;
+  font-weight: 900;
+  /**font-style: oblique;*/
+  font-size: 1.3em;
+  font-family: 'Indie Flower', cursive;
+  font-variant: small-caps;
+  font-stretch: expanded;
+  letter-spacing: 5px;
+}
+
+p{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.letras{
+  letter-spacing: 5px;
+}
+
+.palavras{
+  word-spacing: 10px;
+  text-shadow: 1px 2px 3px red;
+}
+
+.linhas{
+  line-height: 3.0em;
+}
+
+.uppercase{
+  text-transform: uppercase;
+  }
+
+  .lower{
+    text-transform: lowercase;
+    text-decoration: wavy line-through cornflowerblue;
+  }
+
+  .capitalize{
+    text-transform: capitalize;
+    text-decoration: double underline #FFFF00
+      }
+  
+  .decoration{
+    text-decoration: dashed #FFFFFF overline;
+  }
+
+header{
+  grid-area: header;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+main{
+  grid-area: main;
+  background-color: black;
+}
+aside{
+  grid grid-area: aside;
+  background-color: blue;
+}
+footer{
+  grid-area: footer;
+  background-color: gray;
+}

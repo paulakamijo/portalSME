@@ -1,0 +1,40 @@
+  <!-- zzzzzzzzzzzz DOCENTE Bianca COL 1 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-docente-Bianca-Franco.png"
+                  alt="Professora Bianca Franco Santos"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Bianca Franco Santos</strong>
+              <br />
+              Professora
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+                <li class="liUlGeralLeft">
+                  Pedagoga formada pela Faculdade Anhanguera.
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Deficiência Intelectual.
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Alfabetização e Letramento.
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Neuropsicopedagogia e ABA Análise do
+                  Comportamento.
+                </li>
+                <li class="liUlGeralLeft">
+                  Professora do Colégio VE desde 2018.
+                </li>
+                <li class="liPassions">
+                  &nbsp; Suas grandes paixões: Família, pets e viajar.
+                </li>
+              </ul>
+            </div>
+          </div>

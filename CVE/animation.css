@@ -1,0 +1,51 @@
+.galery {
+  max-width: 1920;
+  height: 462 px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.galery .fotos {
+  width: 500%;
+  display: flex;
+  flex-wrap: wrap;
+  /* transition-duration: 4s; */
+  animation-name: animacao;
+  animation-delay: 6s;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+  width: 20%;
+}
+
+@keyframes animacao {
+  0% {
+    margin-left: 0;
+  }
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  95% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -400%;
+  }
+}

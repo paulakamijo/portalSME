@@ -1,0 +1,33 @@
+<!-- zzzzzzzzzzzz DOCENTE ALLAN COL 3 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-docente-Luciana-Santos.png"
+                  alt="Vem Pro VE"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Allan Petterson Venâncio</strong>
+              <br />
+              Professor
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+                <li class="liUlGeralLeft">
+                  Engenheiro Civil formado pela Universidade de Mogi das Cruzes (UMC).
+                </li>
+                <li class="liUlGeralLeft">
+                  Pedagogo formado pela Universidade Bandeirante de São Paulo (Uniban).
+                </li>                
+                <li class="liUlGeralLeft">
+                  Professor do Colégio VE desde 2018.
+                </li>
+                <!-- <li class="liPassions">
+                  &nbsp; Suas grandes paixões: música e cinema.
+                </li> -->
+              </ul>
+            </div>
+          </div>

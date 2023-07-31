@@ -1,0 +1,36 @@
+<!-- zzzzzzzzzzzz DOCENTE ERICA COL 3 ZZZZZZZZZZZZZZZZZZZZZZZ -->
+          <div class="contentDivColTeam col-4">
+            <div class="row" style="padding-top: 10px; padding-bottom: 10px;">
+              <a>
+                <img
+                  class="contentImgNoBorderTeam"
+                  src="./images/team-docente-Luciana-Santos.png"
+                  alt="Professora Erica Soares de Lima"
+                />
+              </a>
+            </div>
+            <div class="contentImgTitle">
+              <strong>Erica Soares de Lima</strong>
+              <br />
+              Professora
+            </div>
+            <div class="row pTextFloatTime contentImgText">
+              <ul class="ulGeralFit">
+                <li class="liUlGeralLeft">
+                  Geógrafa licenciada pela Universidade Metropolitana de Santos (Unimes).
+                </li>
+		<li class="liUlGeralLeft">
+                  Especialista em História pelo Instituto Facuminas.
+                </li>
+                <li class="liUlGeralLeft">
+                  Especialista em Educação Especial em Deficiência Intelectual pela Faculdade Campos Elíseos FCE).
+                </li>                
+                <li class="liUlGeralLeft">
+                  Professora do Colégio VE desde 2017.
+                </li>
+                <!-- <li class="liPassions">
+                  &nbsp; Suas grandes paixões: ficar com meus filhos e ouvir música.
+                </li> -->
+              </ul>
+            </div>
+          </div>

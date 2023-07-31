@@ -1,0 +1,124 @@
+<!DOCTYPE html;>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Jogo adivinhe o número</title>
+
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+      <h1>Jogo adivinhe o número</h1>
+
+      <p>Nós selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar em 10 chances ou menos. Nós lhe diremos se seu palpite foi muito alto ou muito baixo.</p>
+
+<div class="form">
+  <label for="campoPalpite">Digite seu palpite: </label><input type="text" id="campoPalpite" class="campoPalpite">
+  <input type="submit" value="Enviar palpite" class="envioPalpite">
+</div>
+
+<div class="resultadoParas">
+  <p class="palpites"></p>
+  <p class="ultimoResultado"></p>
+  <p class="baixoOuAlto"></p>
+</div>
+
+</body>
+
+<script> // Seu JavaScript vai aqui
+  var numeroAleatorio = Math.floor(Math.random()*100) + 1; //algoritmo que gerará um número aleatório
+
+  // definindo as variáveis que vão receber os valores a serem guardados
+  var palpites = document.querySelector('.palpites');
+  var ultimoResultado = document.querySelector('.ultimoResultado');
+  var baixoOualto = document.querySelector('.baixoOualto');
+  
+  //variáveis que armazenam referências para o campo de texto e o botão de envio
+  var envioPalpite = document.querySelector('.envioPalpite');
+  var campoPalpite = document.querySelector('.campoPalpite');
+  
+  
+  var contagemPalpites = 1; //atribuído o valor 1 à variável contagemPalpites
+
+  var botaoReinicio;
+
+  //Dentro da função vai o código a ser executado toda a vez que a função é chamada
+  
+  function conferirPalpite() {
+    var palpiteUsuario = Number(campoPalpite.value);
+    if (contagemPalpites===1) {
+      palpites.textContent = 'Palpites anteriores ';
+    }
+    palpites.textContent+= palpiteUsuario + ' ';
+
+    if (palpiteUsuario===numeroAleatorio) {
+      ultimoResultado.textContent = 'Parabéns! Você acertou!';
+      ultimoResultado.style.background = 'green';
+      ultimoResultado.style.color = 'white';
+      baixoOualto.textContent = '';
+      configFimDeJogo();
+    } else if (contagemPalpites===10){
+      ultimoResultado.textContent = 'Fim de jogo!!!';
+      baixoOualto.textContent = '';
+      configFimDeJogo();
+    } else {
+      ultimoResultado.textContent = 'Errado!';
+      ultimoResultado.style.background = 'red';
+      if (palpiteUsuario < numeroAleatorio) {
+        baixoOualto.textContent = 'Seu palpite está muito BAIXO';
+      } else if (palpiteUsuario > numeroAleatorio){
+        baixoOualto.textContent = 'Seu palpite está muito ALTO';
+      }
+    }
+    contagemPalpites++;
+    campoPalpite.value = '';
+    campoPalpite.focus();
+  }
+ 
+ envioPalpite.addEventListener('click', conferirPalpite);
+
+ function configFimDeJogo() {
+   campoPalpite.disabled = true;
+   envioPalpite.disabled = true;
+   botaoReinicio = document.createElement ('button');
+   botaoReinicio.textContent = 'Iniciar novo jogo';
+   document.body.appendChild(botaoReinicio);
+   botaoReinicio.addEventListener('click', reiniciarJogo);
+ }
+
+ function reiniciarJogo(){
+   contagemPalpites = 1;
+
+   var reiniciarParas = document.querySelectorAll('.resultadoParas p');
+   for (var i = 0; i < reiniciarParas.length;i++){
+     reiniciarParas[i].textContent = '';
+    }
+
+    botaoReinicio.parentNode.removeChild(botaoReinicio);
+
+    campoPalpite.disabled = false;
+    envioPalpite.disabled = false;
+    campoPalpite.value = '';
+    campoPalpite.focus();
+
+    ultimoResultado.style.background = 'white';
+
+    numeroAleatorio = Math.floor(Math.random()*100)+1;
+ }
+</script>
+</html>

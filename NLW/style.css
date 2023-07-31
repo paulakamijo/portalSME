@@ -1,0 +1,133 @@
+/**
+Cascading Style Sheet - ordem de aparição dos estilos, que pode ser sobrescrito de acordo com os elementos que aparecem por ÚLTIMO*/
+
+/**Especificidade
+
+    - ORDEM DECRESCENTE (Cascading)
+    <> inline CSS > # ID Selector > Class > Element selector {}
+    Estilos inline são os que têm mais força
+
+    a.button {background-color: lightblue;}    elemento (a) + classe (.button)
+    .button {background-color: lightblue;}   classe
+    Apesar da cascata, o a.button é mais forte, pois junta elemento + classe
+    
+    - de ELEMENTO:
+    h1{font-size: 1,5rem;}
+**********************************************
+    UNIDADES DE MEDIDA E RESPONSIVO - Unidades relativas: porcentagem -
+    Unidades estáticas: pixels são fixos
+*/
+
+/**SELETOR UNIVERSAL
+Vai aplicar o comportamento a todos os elementos
+*/
+* {
+  margin: 0;
+}
+
+html,
+body {
+  --black: hsl(240, 6%, 13%);
+  --grey: hsl(240, 9%, 89%);
+  /**H é a cor HUE barrinha de cores, S, saturation e L Lightning*/
+
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
+}
+
+/**
+BOX MODEL
+(Content) Define a altura e largura do conteúdo
+(Padding) Define o preenchimento interno entre o conteúdo e a borda da caixa
+(Border) é o limite de borda da caixa
+(Margin) Espaçamento fora da caixa
+*/
+
+.container {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  color: var(--grey);
+}
+
+.avatar {
+  width: 10rem;
+  /**rem é medida relativa em relação ao pixel da página, no caso, 1 rem são 16px - 160px de largura = 160/16px = 10rem*/
+  margin: 11.5rem auto 0;
+  /**
+  0top 0right 0bottom 0left
+  0 0 0 top, as laterais e bottom
+  0  top e bottom  0 laterais (exemplo: 10rem 0; significa 10rem em top e bottom e 0 nas laterais)
+  */
+  position: relative;
+}
+
+.avatar span {
+  position: absolute;
+  top: -15px;
+  z-index: 1; /**eixo de profundidade*/
+}
+
+.avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+} /**https://bennettfeely.com/clippy/*/
+
+h1 {
+  font-size: 1.5rem;
+
+  margin-top: 1.5rem;
+}
+/**h1 é o seletor, entre chaves estão a declaração com propriedade e valor, finalizada com ;*/
+
+a {
+  color: var(--grey);
+  text-decoration: none;
+
+  margin-top: 0.25rem;
+
+  display: flex;
+  gap: 0.75rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+ul {
+  margin-top: 4rem;
+
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  gap: 0.5rem; /**espaço entre os itens*/
+  /**deixa um elemento ao lado do outro no eixo horizontal
+  sem o display não dá para utilizar nem o gap e nem o justify-content
+    */
+  /**display: GRID - é possível trabalhar tanto com alinhamento vertical quanto horizontal*/
+
+  justify-content: center; /**alinha o conteúdo no eixo horizontal x. Display: flex precisa estar ativado*/
+  /**text-align: center não funciona pois não é elemento texto/ propriedade texto*/
+}
